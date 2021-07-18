@@ -138,11 +138,12 @@
                         </div>
                     </div>
                     <span>
-                From scratch implementation of the Alfresco Digital Business Platform with a frontend application and RESTful microservices.
+                From scratch implementation of the Alfresco Digital Business Platform with a web application and RESTful microservices.
             </span>
                     <ul>
                         <li>
-                            Angular 2+, TypeScript, JavaScript, HTML, CSS, SCSS, RxJS, Jasmine, Karma, Cypress, Java, Spring,
+                            Angular 2+, TypeScript, JavaScript, HTML, CSS, SCSS, RxJS, Jasmine, Karma, Cypress, Java,
+                            Spring,
                             SQL,
                             BPMN, Git and more
                         </li>
@@ -168,7 +169,7 @@
             </span>
                     <ul>
                         <li>
-                            Angular 2+, Git, Trello
+                            Angular 2+, TypeScript, JavaScript, HTML, CSS, SCSS, RxJS, BPMN, Git, Trello
                         </li>
                     </ul>
                 </div>
@@ -188,7 +189,7 @@
                         </div>
                     </div>
                     <span>
-                From scratch implementation of the Alfresco Digital Business Platform with a frontend application and RESTful microservices.
+                From scratch implementation of the Alfresco Digital Business Platform with a web application and RESTful microservices.
             </span>
                     <ul>
                         <li>
@@ -241,7 +242,7 @@
             </span>
                     <ul>
                         <li>
-                            Angular 2+, HTML, TypeScript, CSS, SCSS, Git
+                            Angular 2+, HTML, TypeScript, CSS, SCSS, RxJS, Git
                         </li>
                     </ul>
                 </div>
@@ -295,7 +296,10 @@
                 HTML
             </span>
                 <span class="tag">
-                CSS/SCSS
+                CSS
+            </span>
+                <span class="tag">
+                SCSS
             </span>
                 <span class="tag">
                 NPM
@@ -429,6 +433,51 @@
                 </div>
             </div>
 
+
+            <div class="cv-col-item">
+                <span class="cv-col-item-title">
+                Languages
+            </span>
+                <div style="display: flex; justify-content: space-between; align-items: center">
+                <span class="sub-title">
+                Dutch
+                </span>
+                    <div class="skill-dots">
+                        <div class="skill-dot"></div>
+                        <div class="skill-dot"></div>
+                        <div class="skill-dot"></div>
+                        <div class="skill-dot"></div>
+                        <div class="skill-dot"></div>
+                    </div>
+                </div>
+
+                <div style="display: flex; justify-content: space-between; align-items: center">
+                <span class="sub-title">
+                English
+                </span>
+                    <div class="skill-dots">
+                        <div class="skill-dot"></div>
+                        <div class="skill-dot"></div>
+                        <div class="skill-dot"></div>
+                        <div class="skill-dot"></div>
+                        <div class="skill-dot"></div>
+                    </div>
+                </div>
+
+                <div style="display: flex; justify-content: space-between; align-items: center">
+                <span class="sub-title">
+                Spanish
+                </span>
+                    <div class="skill-dots">
+                        <div class="skill-dot"></div>
+                        <div class="skill-dot"></div>
+                        <div class="skill-dot-transparent"></div>
+                        <div class="skill-dot-transparent"></div>
+                        <div class="skill-dot-transparent"></div>
+                    </div>
+                </div>
+            </div>
+
             <div class="cv-col-item">
                 <span class="cv-col-item-title">
                 Other
@@ -454,7 +503,6 @@
                 </div>
             </div>
         </div>
-
     </div>
 </div>
 </div>
@@ -466,7 +514,6 @@
     }
 
     .container {
-        /*        height: 1329px;*/
         padding: 60px;
         page-break-after: always;
         position: relative;
@@ -581,7 +628,7 @@
     }
 
     .blue-title {
-        color: #008CFF !important;
+        color: #008CFF;
         font-family: 'Rubik', sans-serif;
         margin-bottom: 2px;
     }
@@ -623,6 +670,27 @@
         font-weight: 700;
         display: inline-block;
     }
+
+    .skill-dots {
+        display: flex;
+    }
+
+    .skill-dot {
+        height: 16px;
+        width: 16px;
+        margin: 5px;
+        border-radius: 50%;
+        background: #008CFF;
+    }
+
+    .skill-dot-transparent {
+        height: 16px;
+        width: 16px;
+        border-radius: 50%;
+        margin: 5px;
+        background: rgba(0, 140, 255, 20%);
+    }
+
 
     @media screen and (max-width: 1000px) {
         .cv-left-col, .cv-right-col, .header-left-col, .header-right-col {
