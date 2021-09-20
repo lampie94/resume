@@ -12,7 +12,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Inter&family=Rubik&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
 </head>
-<body>
+<body onload="getJSON('https://drive.google.com/uc?export=download&id=1hEYMP8GMNrM9FBivLWLFA7-mZTN_90Nq')">
 <div class="container">
     <button class="material-icons download"
             type="submit"
@@ -123,8 +123,8 @@
                         </div>
                     </div>
                     <p>
-                        Angular code audit for a big player in Dutch e-commerce. Provided an extensive audit report
-                        containing info and suggestions for improving their current Angular PWA.
+                        Code audit for a big player in Dutch e-commerce. My responsibility was to provide an extensive audit report
+                        containing analyses of identified problems, and suggestions for improving their current Angular PWA.
                     </p>
                 </div>
                 <div class="cv-col-item-project">
@@ -166,7 +166,7 @@
             </span>
                 <div class="cv-col-item-project">
                 <span class="sub-title">
-                Rijksoverheid
+                Ministerie van Defensie
                 </span>
                     <div class="info-container">
                         <div class="info-container-item-full">
@@ -179,8 +179,9 @@
                         </div>
                     </div>
                     <p>
-                        From scratch implementation of the Alfresco Digital Business Platform with a web application and
-                        RESTful microservices.
+                        From scratch implementation of the Alfresco Digital Business Platform with a web application and RESTful microservices to manage the lifecycle of records/documents from capture through retention to final destruction.
+                        <br> <br>
+                        My responsibilities included creating a web application from scratch, coaching and mentoring colleagues in the area of frontend development, development of (BPMN) process logic and the development of REST APIs with custom business logic.
                     </p>
                     <ul>
                         <li>
@@ -191,7 +192,7 @@
                         </li>
                     </ul>
                 </div>
-
+                <div class="print-margin-spacer"></div>
                 <div class="cv-col-item-project">
                 <span class="sub-title">
                 APS Group
@@ -232,8 +233,9 @@
                         </div>
                     </div>
                     <p>
-                        From scratch implementation of the Alfresco Digital Business Platform with a web application and
-                        RESTful microservices.
+                        From scratch implementation of the Alfresco Digital Business Platform with a web application and RESTful microservices to manage the lifecycle of records/documents from capture through retention to final destruction.
+                        <br><br>
+                        My responsibilities included creating a web application from scratch, development of (BPMN) process logic and the development of REST APIs with custom business logic.
                     </p>
                     <ul>
                         <li>
@@ -329,6 +331,12 @@
                 Angular
             </span>
                 <span class="tag">
+                Java
+            </span>
+                <span class="tag">
+                Spring
+            </span>
+                <span class="tag">
                 TypeScript
             </span>
                 <span class="tag">
@@ -351,12 +359,6 @@
             </span>
                 <span class="tag">
                 NPM
-            </span>
-                <span class="tag">
-                Java
-            </span>
-                <span class="tag">
-                Spring
             </span>
                 <span class="tag">
                 Cypress
@@ -431,7 +433,9 @@
                 </div>
 
             </div>
-
+            <div class="print-margin-spacer"></div>
+            <div class="print-margin-spacer"></div>
+            <div class="print-margin-spacer"></div>
             <div class="cv-col-item">
             <span class="cv-col-item-title">
                 Study Abroad
@@ -443,7 +447,6 @@
                     <span class="blue-title" style="font-size: 16px; line-height: 18px;">
                 Ivey Business School at Western University
                 </span>
-                    <div class="print-margin-spacer"></div>
                     <div class="info-container">
                         <div class="info-container-item-full">
                 <span class="material-icons">
@@ -540,14 +543,14 @@
                 Sabbaticals
                 </span>
                         <div class="cv-col-item-project">
-                    <span>
+                    <p>
                         In 2020 I took a 3 month sabbatical during which I traveled in a few countries in South America.
-                </span>
+                </p>
                         </div>
                         <div class="cv-col-item-project">
-                <span>
+                <p>
                         In 2015-2016, between my bachelor's and master's, I worked and traveled in Australia and Southeast Asia for a total of 8 months.
-                    </span>
+                    </p>
                         </div>
                     </div>
                 </div>
@@ -564,12 +567,14 @@
         display: flex;
         justify-content: center;
         background: whitesmoke;
+        -webkit-font-smoothing: antialiased
     }
 
     p {
         text-align: justify;
         margin: 0;
         padding: 0;
+        -webkit-font-smoothing: antialiased
     }
 
     .container {
@@ -680,6 +685,7 @@
 
     .main-title {
         font-family: 'Rubik', sans-serif;
+        -webkit-font-smoothing: antialiased
     }
 
     .sub-title {
@@ -687,12 +693,14 @@
         margin-bottom: 2px;
         font-size: 18px;
         line-height: 22px;
+        -webkit-font-smoothing: antialiased
     }
 
     .blue-title {
         color: #008CFF;
         font-family: 'Rubik', sans-serif;
         margin-bottom: 2px;
+        -webkit-font-smoothing: antialiased
     }
 
     .text-with-icon {
@@ -701,6 +709,7 @@
         text-decoration: none;
         line-height: 16px;
         margin-left: 6px;
+        -webkit-font-smoothing: antialiased
     }
 
     .cv-col-item-title {
@@ -711,6 +720,7 @@
         text-transform: uppercase;
         font-size: 25px;
         line-height: 33px;
+        -webkit-font-smoothing: antialiased
     }
 
     .material-icons {
@@ -739,6 +749,7 @@
         text-align: center;
         font-size: 14px;
         display: inline-block;
+        -webkit-font-smoothing: subpixel-antialiased;
     }
 
     .skill-dots {
@@ -812,7 +823,7 @@
         }
 
         .print-margin-spacer {
-            height: 8px;
+            height: 50px;
         }
 
         .material-icons.download {
@@ -823,4 +834,27 @@
             border-bottom: 1px solid #000;
         }
     }
+
+    .material-icons.download:hover {
+        color: #0070cc;
+    }
 </style>
+
+<script type="text/javascript">
+    var db;
+
+    var getJSON = function(url, callback) {
+        var xhr = new XMLHttpRequest();
+        xhr.open('GET', url, true);
+        xhr.responseType = 'json';
+        xhr.onload = function() {
+            var status = xhr.status;
+            if (status === 200) {
+                callback(null, xhr.response);
+            } else {
+                callback(status, xhr.response);
+            }
+        };
+        xhr.send();
+    };
+</script>
