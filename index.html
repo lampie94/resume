@@ -12,12 +12,12 @@
     <link href="https://fonts.googleapis.com/css2?family=Inter&family=Rubik&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
 </head>
-<body onload="getData()">
+<body onload="gD()">
 <div class="container">
     <button class="material-icons download"
             type="submit"
-            onclick="window.open('../resume/resources/CV - William Muijs.pdf'); putData('d')"
-            title="Download my resume">
+            onclick="window.open('../resume/resources/CV - William Muijs.pdf'); pD('d')"
+            title="Click here to download my resume">
         file_download
     </button>
     <div class="header">
@@ -34,7 +34,7 @@
                 <span class="material-icons">
                     phone
                 </span>
-                    <a href="tel:31685129807" class="text-with-icon">
+                    <a href="tel:31685129807" class="text-with-icon" title="Click here to call me">
                         +31685129807
                     </a>
                 </div>
@@ -50,7 +50,7 @@
                 <span class="material-icons">
                     alternate_email
                 </span>
-                    <a href="mailto: williammuys@gmail.com" class="text-with-icon">
+                    <a href="mailto: williammuys@gmail.com" class="text-with-icon" title="Click here to send me an email">
                         williammuys@gmail.com
                     </a>
                 </div>
@@ -59,7 +59,9 @@
                     link
                 </span>
                     <a href="https://linkedin.com/in/william-muijs"
-                       class="text-with-icon">
+                       onclick="pD('l')"
+                       class="text-with-icon"
+                       title="Click here to check out my LinkedIn profile">
                         linkedin.com/in/william-muijs
                     </a>
                     </span>
@@ -852,5 +854,5 @@
 </style>
 
 <script>
-    var _0x44856b=_0x3b35;(function(_0x39272a,_0x7ffa62){var _0xa3df7=_0x3b35,_0x4d4f3c=_0x39272a();while(!![]){try{var _0x444790=-parseInt(_0xa3df7(0x1bc))/0x1*(parseInt(_0xa3df7(0x1ae))/0x2)+-parseInt(_0xa3df7(0x1c1))/0x3+-parseInt(_0xa3df7(0x1be))/0x4*(parseInt(_0xa3df7(0x1ca))/0x5)+parseInt(_0xa3df7(0x1b0))/0x6*(-parseInt(_0xa3df7(0x1b1))/0x7)+-parseInt(_0xa3df7(0x1c5))/0x8*(-parseInt(_0xa3df7(0x1c2))/0x9)+-parseInt(_0xa3df7(0x1b8))/0xa+parseInt(_0xa3df7(0x1bf))/0xb;if(_0x444790===_0x7ffa62)break;else _0x4d4f3c['push'](_0x4d4f3c['shift']());}catch(_0x311e9f){_0x4d4f3c['push'](_0x4d4f3c['shift']());}}}(_0x14c8,0xb7976));var url='https://jsonpad.io/api/v1.0/lists/resume/items/',item=_0x44856b(0x1b9),username=_0x44856b(0x1b3),token='1/NlQsWje+CpPLukrX1WEGiua9gA3eO/',v=0x0,d=0x0,p=0x0,hasVisitedBefore=!!localStorage[_0x44856b(0x1c9)](item);function _0x14c8(){var _0x5806be=['30xEXGbW','open','4VexZWv','44941204WxTgfa','Accept','150285RdytHu','3690108XrKhke','data','application/json','16FeDTqz','Authorization','onreadystatechange','log','getItem','5862355mUXgqC','parse','Content-Type','Basic\x20\x20','true','69562esEmUc','send','12FejVRy','5161660IqRzrG','PUT','lampie94','stringify','readyState','response','setRequestHeader','4128420tWqakR','27332503803002928','item','setItem'];_0x14c8=function(){return _0x5806be;};return _0x14c8();}function getData(){var _0x258c69=_0x44856b;const _0x279740=new XMLHttpRequest();_0x279740[_0x258c69(0x1bd)]('GET',url+item),_0x279740[_0x258c69(0x1b7)](_0x258c69(0x1ab),'application/json'),_0x279740['setRequestHeader'](_0x258c69(0x1c0),_0x258c69(0x1c4)),_0x279740[_0x258c69(0x1b7)](_0x258c69(0x1c6),_0x258c69(0x1ac)+btoa(username+':'+token)),_0x279740[_0x258c69(0x1c7)]=function(){var _0x4cd575=_0x258c69;if(_0x279740[_0x4cd575(0x1b5)]===0x4)try{const _0x5d5e05=JSON[_0x4cd575(0x1cb)](_0x279740[_0x4cd575(0x1b6)])[_0x4cd575(0x1ba)][_0x4cd575(0x1c3)];v=_0x5d5e05['v'],d=_0x5d5e05['d'],p=_0x5d5e05['p'],localStorage[_0x4cd575(0x1bb)](''+item,_0x4cd575(0x1ad)),!hasVisitedBefore&&putData('v');}catch(_0x4f4be0){console[_0x4cd575(0x1c8)](_0x4f4be0);}};try{_0x279740[_0x258c69(0x1af)]();}catch(_0x10555c){console[_0x258c69(0x1c8)](_0x10555c);}}function putData(_0x1dcc48='v'|'d'|'p'){var _0x55b05c=_0x44856b;switch(_0x1dcc48){case'v':this['v']++;break;case'd':this['d']++;break;case'p':this['p']++;break;}const _0x35a079=new XMLHttpRequest();_0x35a079[_0x55b05c(0x1bd)](_0x55b05c(0x1b2),url+item),_0x35a079[_0x55b05c(0x1b7)]('Content-Type',_0x55b05c(0x1c4)),_0x35a079[_0x55b05c(0x1b7)](_0x55b05c(0x1c0),'application/json'),_0x35a079[_0x55b05c(0x1b7)](_0x55b05c(0x1c6),_0x55b05c(0x1ac)+btoa(username+':'+token)),_0x35a079[_0x55b05c(0x1c7)]=function(){var _0x3decb9=_0x55b05c;if(_0x35a079[_0x3decb9(0x1b5)]===0x4)try{const _0x12f918=JSON['parse'](_0x35a079[_0x3decb9(0x1b6)])['item'][_0x3decb9(0x1c3)];v=_0x12f918['v'],d=_0x12f918['d'],p=_0x12f918['p'];}catch(_0x3f9771){console[_0x3decb9(0x1c8)](_0x3f9771);}};try{_0x35a079['send'](JSON[_0x55b05c(0x1b4)]({'v':this['v'],'d':this['d'],'p':this['p']}));}catch(_0x1d0e4a){console[_0x55b05c(0x1c8)](_0x1d0e4a);}}function _0x3b35(_0x148338,_0xa8e6ff){var _0x14c8ed=_0x14c8();return _0x3b35=function(_0x3b3569,_0x495a97){_0x3b3569=_0x3b3569-0x1ab;var _0x30c945=_0x14c8ed[_0x3b3569];return _0x30c945;},_0x3b35(_0x148338,_0xa8e6ff);}window['onbeforeprint']=function(){putData('p');};
+    function _0x6638(){var _0x19360c=['1/NlQsWje+CpPLukrX1WEGiua9gA3eO/','193767FFJoln','getItem','item','59886fNnGnw','send','application/json','215192skszPh','27332503803002928','512OtyUiG','stringify','1305200DuApSV','onreadystatechange','setRequestHeader','PUT','Accept','lampie94','readyState','true','Authorization','parse','response','https://jsonpad.io/api/v1.0/lists/resume/items/','open','5IAwJeN','log','18ftFPHk','Content-Type','8330178MGpSHI','1110rtGSQS','Basic\x20\x20','6670836mGTKBu','data','42262264fIGots'];_0x6638=function(){return _0x19360c;};return _0x6638();}var _0x5f4f68=_0x2688;function _0x2688(_0x14db39,_0x19c894){var _0x6638eb=_0x6638();return _0x2688=function(_0x2688f4,_0x2be09e){_0x2688f4=_0x2688f4-0xdf;var _0x16598c=_0x6638eb[_0x2688f4];return _0x16598c;},_0x2688(_0x14db39,_0x19c894);}(function(_0xf0c283,_0x923dc4){var _0x776b6d=_0x2688,_0x35ad14=_0xf0c283();while(!![]){try{var _0x353764=parseInt(_0x776b6d(0xfd))/0x1+parseInt(_0x776b6d(0xf9))/0x2*(-parseInt(_0x776b6d(0xea))/0x3)+parseInt(_0x776b6d(0xef))/0x4+-parseInt(_0x776b6d(0xe8))/0x5*(-parseInt(_0x776b6d(0xec))/0x6)+parseInt(_0x776b6d(0xf3))/0x7*(parseInt(_0x776b6d(0xfb))/0x8)+parseInt(_0x776b6d(0xf6))/0x9*(-parseInt(_0x776b6d(0xed))/0xa)+-parseInt(_0x776b6d(0xf1))/0xb;if(_0x353764===_0x923dc4)break;else _0x35ad14['push'](_0x35ad14['shift']());}catch(_0x296291){_0x35ad14['push'](_0x35ad14['shift']());}}}(_0x6638,0xdd5a6));var url=_0x5f4f68(0xe6),item=_0x5f4f68(0xfa),un=_0x5f4f68(0xe0),tn=_0x5f4f68(0xf2),v=0x0,d=0x0,p=0x0,l=0x0,hvB=!!localStorage[_0x5f4f68(0xf4)](item);function gD(){var _0x3c96bf=_0x5f4f68;const _0x3d6d4b=new XMLHttpRequest();_0x3d6d4b[_0x3c96bf(0xe7)]('GET',url+item),_0x3d6d4b[_0x3c96bf(0xff)](_0x3c96bf(0xeb),'application/json'),_0x3d6d4b[_0x3c96bf(0xff)](_0x3c96bf(0xdf),'application/json'),_0x3d6d4b[_0x3c96bf(0xff)]('Authorization',_0x3c96bf(0xee)+btoa(un+':'+tn)),_0x3d6d4b[_0x3c96bf(0xfe)]=function(){var _0x21ea27=_0x3c96bf;if(_0x3d6d4b[_0x21ea27(0xe1)]===0x4)try{const _0x2381e8=JSON[_0x21ea27(0xe4)](_0x3d6d4b[_0x21ea27(0xe5)])[_0x21ea27(0xf5)][_0x21ea27(0xf0)];v=_0x2381e8['v'],d=_0x2381e8['d'],p=_0x2381e8['p'],l=_0x2381e8['l'],localStorage['setItem'](''+item,_0x21ea27(0xe2)),!hvB&&pD('v');}catch(_0x14a2b4){console[_0x21ea27(0xe9)](_0x14a2b4);}};try{_0x3d6d4b[_0x3c96bf(0xf7)]();}catch(_0x1830cf){console[_0x3c96bf(0xe9)](_0x1830cf);}}function pD(_0x3fddbe='v'|'d'|'p'|'l'){var _0xbd575c=_0x5f4f68;switch(_0x3fddbe){case'v':this['v']++;break;case'd':this['d']++;break;case'p':this['p']++;break;case'l':this['l']++;break;default:this['v']++;}const _0x2846f9=new XMLHttpRequest();_0x2846f9[_0xbd575c(0xe7)](_0xbd575c(0x100),url+item),_0x2846f9['setRequestHeader'](_0xbd575c(0xeb),_0xbd575c(0xf8)),_0x2846f9['setRequestHeader']('Accept',_0xbd575c(0xf8)),_0x2846f9[_0xbd575c(0xff)](_0xbd575c(0xe3),_0xbd575c(0xee)+btoa(un+':'+tn)),_0x2846f9['onreadystatechange']=function(){var _0x44ed7d=_0xbd575c;if(_0x2846f9[_0x44ed7d(0xe1)]===0x4)try{const _0x323869=JSON[_0x44ed7d(0xe4)](_0x2846f9[_0x44ed7d(0xe5)])[_0x44ed7d(0xf5)][_0x44ed7d(0xf0)];v=_0x323869['v'],d=_0x323869['d'],p=_0x323869['p'],l=_0x323869['l'];}catch(_0x1af0bf){console[_0x44ed7d(0xe9)](_0x1af0bf);}};try{_0x2846f9[_0xbd575c(0xf7)](JSON[_0xbd575c(0xfc)]({'v':this['v'],'d':this['d'],'p':this['p'],'l':this['l']}));}catch(_0x58795b){console['log'](_0x58795b);}}window['onbeforeprint']=function(){pD('p');};
 </script>
